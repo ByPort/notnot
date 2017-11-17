@@ -1,0 +1,17 @@
+{
+  "name": "notnot",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ByPort/notnot"
+  },
+  "author": "Vladimir Sernatsky <byport1112@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
