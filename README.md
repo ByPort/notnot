@@ -1,6 +1,6 @@
 # `notnot`
 
-A simple npm package that injects the `.not` property in all objects (except `null` and `undefined`).
+A simple npm package that implements the `.not` property in all objects (except `null` and `undefined`).
 
 ⚠️ **ATTENTION, MONKEY PATCHING**
 
@@ -40,4 +40,4 @@ import 'notnot';
 require('notnot');
 ```
 
-Remember that the package injects the `.not` property in the `Object.prototype` and this will apply to the whole context after import.
+Remember that the package implements the `.not` property in the `Object.prototype` and this will apply to the whole context after import.
